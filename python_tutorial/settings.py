@@ -117,12 +117,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-
 STATIC_URL = '/static/'
-OUTLOOK_CLIENT_ID = 'e3bd412f-533a-4a62-85af-703c27507f40'
-OUTLOOK_OBJECT_ID = '0662aa09-acf9-4478-a77e-c03901a9b276'
-OUTLOOK_CLIENT_SECRET = {
-    'DESCRI':'my secret',
-    'EXPIRY':'12/31/2299',
-    'VALUE':'=Yk_3eGU8p4zxyC=u5C+TRKbftV]NaG]',
-}
+
+
+OUTLOOK_CLIENT_ID = ''
+OUTLOOK_CLIENT_SECRET = ''
